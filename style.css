@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  padding:3%;
+}
+
+#head{
+  background-color: #265175;
+  color: #FCFDFE;
+  padding-bottom: 20%;
+}
+
+header{
+  position: relative;
+}
+
+header img {
+  position: relative;
+  display: inline-block;
+  width: 20%;
+  left: 2.5%;
+}
+
+header p {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+}
+
+header a {
+  text-decoration: none;
+  color: #D5B94C;
+}
+
+header input{
+  position: absolute;
+  margin-top: 3%;
+  right: 0;
+  border: 15px solid #444444;
+  border-radius: 15px;
+  padding: 7px 2%;
+}
+
+#search {
+  padding: 9px 5%;
+}
+
+menu {
+  border: 15px solid #497FAB;
+  border-radius: 15px;
+  font-size: 135%;
+  text-align: center;
+  background-color:#497FAB;
+  width:75%;
+  margin-left: 15%;
+  margin-top: 3%;
+}
+
+menu ul li {
+  display: inline-block;
+  list-style: none;
+  padding-left: 70px;
+}
+
+.sidemenu{
+  margin-top: 3%;
+  left:6%;
+  position: absolute;
+}
+
+.sidemenu ul li {
+  list-style-type: none;
+  padding-bottom: .6%;
+  text-decoration: underline;
+  color: #FCFDFE;
+}
+
+summary{
+  margin-top: 2%;
+  position: relative;
+  left: 24%;
+  text-align: center;
+  width: 55%;
+}
+
+blockquote{
+  position: absolute;
+  text-align: center;
+  margin-top: 3%;
+  right: 27%;
+  width: 40%;
+}
+
+blockquote ul li {
+  list-style-type: none;
+  font-style: italic;
+  color: #DFC049;
+  font-size:150%;
+}
+
+hr{
+  margin-top: 3%;
+  width: 30%;
+  margin-left: 3%;
+  border-color: #75A8D3;
+  background-color: #75A8D3;
+  height: 3px;
+  display: inline-block;
+}
+
+#secline{
+  position: relative;
+  left: 30%;
+}
+
+article{
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  position: absolute;
+}
+
+article ul li {
+  color: #77A9D4;
+}
+
+.getting {
+  position: absolute;
+  right: 65%;
+  bottom: -11%;
+}
+
+.application{
+  position: absolute;
+  right: 5%;
+  bottom: -15.6%;
+}
+
+#footer{
+  position: absolute;
+  border: 30px solid #2C5D87;
+  background-color: #2C5D87;
+  color: #FFF;
+  bottom: -32.5%;
+  text-align: center;
+
+  left: 4.5%;
+  padding: 0 20%;
+}
+
+#footer ul li {
+  display: inline-block;
+  padding: 0 2%;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 121%;
+}
